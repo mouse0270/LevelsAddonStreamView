@@ -1,0 +1,46 @@
+{
+    "name": "levels-addon-stream-view",
+    "title": "Levels Addon: Stream View",
+    "description": "Sync GM View from Levels to token for Streaming",
+    "version": "0.0.1.0",
+    "authors": [
+        {
+            "name": "theripper93",
+            "email": "tsplab@gmail.com",
+            "url": "https://www.patreon.com/theripper93"
+        }, {
+            "name": "mouse0270",
+            "email": "rmcintosh@websitesbyfatdudes.com",
+            "url": "https://www.patreon.com/mouse0270"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "scripts": [
+        "./scripts/main.js"
+    ],
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.8",
+    "url": "https://github.com/mouse0270/Levels",
+    "manifest": "https://github.com/mouse0270/Levels/releases/latest/download/module.json",
+    "download": "https://github.com/mouse0270/Levels/releases/download/0.0.1.0/module.zip",
+    "dependencies": [
+        {
+            "name": "betterroofs"
+        },
+        {
+            "name": "lib-wrapper"
+        },
+        {
+            "name": "wall-height"
+        },
+        {
+            "name": "levels"
+        }
+    ]
+}

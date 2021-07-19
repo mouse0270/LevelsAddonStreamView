@@ -1,0 +1,4 @@
+{
+	"levels-addon-stream-view.settings.stream-user-id.name": "Stream Player ID",
+	"levels-addon-stream-view.settings.stream-user-id.hint": "Matches Character Elevation to GM Elevation. WARNING (Best used with single GM)."
+}
