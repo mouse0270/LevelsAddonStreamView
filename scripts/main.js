@@ -22,8 +22,6 @@ Hooks.on("init", () => {
 });
 
 Hooks.on('levelsReady', () => {
-//Hooks.on("canvasReady", () => {
-	console.log(_LEVELSADDON_STREAMVIEW_MODULENAME, 'LEVELS READY');
 	_levels.UI.refreshLevels = () => {
 		_levels.UI.range = _levels.UI.definedLevels[_levels.UI.currentLevel];
 
